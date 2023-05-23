@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlePonto.API", "src\ControlePonto.API\ControlePonto.API.csproj", "{CC75440D-5F95-429E-8C37-36803FB07562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePonto.Data", "src\ControlePonto.Data\ControlePonto.Data.csproj", "{A528CB2C-5C38-45E7-8DFA-309D362DE80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePonto.Business", "src\ControlePonto.Business\ControlePonto.Business.csproj", "{51334D96-9D13-4A0E-83AD-164739749EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC75440D-5F95-429E-8C37-36803FB07562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75440D-5F95-429E-8C37-36803FB07562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC75440D-5F95-429E-8C37-36803FB07562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC75440D-5F95-429E-8C37-36803FB07562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A528CB2C-5C38-45E7-8DFA-309D362DE80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A528CB2C-5C38-45E7-8DFA-309D362DE80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A528CB2C-5C38-45E7-8DFA-309D362DE80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A528CB2C-5C38-45E7-8DFA-309D362DE80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51334D96-9D13-4A0E-83AD-164739749EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51334D96-9D13-4A0E-83AD-164739749EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51334D96-9D13-4A0E-83AD-164739749EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51334D96-9D13-4A0E-83AD-164739749EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C53893C-B709-440B-B663-0FFD80AFFD6A}
+	EndGlobalSection
+EndGlobal
